@@ -17,12 +17,12 @@ function Header() {
                 </div>
 
                 {/* ROUTES */}
-                <div  className={styles.box2}>
-                    <div className={styles.route}>EmployeeOfTheMonth</div>
-                    <div className={styles.route}>Contents</div>
-                    <div className={styles.route}>Votes</div>
-                    <div className={styles.route}>CEMWinners</div>
-                </div>
+                <ul  className={styles.box2}>
+                    <li className={styles.route}>EmployeeOfTheMonth</li>
+                    <li className={styles.route}>Contents</li>
+                    <li className={styles.route}>Votes</li>
+                    <li className={styles.route}>CEMWinners</li>
+                </ul>
 
                 {/* LOG IN */}
                 <div  className={styles.box3}>

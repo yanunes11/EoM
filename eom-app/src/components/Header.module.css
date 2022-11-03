@@ -27,6 +27,7 @@
     vertical-align: top;
     font-size: small;
     color: #dcf0f9;
+    vertical-align: middle;
 }
 
 .box2 {
@@ -38,22 +39,24 @@
     font-size: small;
     color: #dcf0f9;
     column-count: 4;
-    position: relative;
 }
 
 .box3 {
     width: 10%;
-    height: 50px;
+    height: 10px;
     background: #025696;
     display: table-cell;
     vertical-align: top;
-    align-items: right;
+    text-align: center;
     font-size: small;
     color: #dcf0f9;
+    vertical-align: middle;
 }
 
 .route {
     color: #dcf0f9;
     font-size: small;
     padding-top: 15px;
+    list-style: none;
+    text-align: center;
 }
