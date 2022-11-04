@@ -10,13 +10,33 @@
 }
 
 .appLogo {
-    height: 12vmin;
+    height: 10vmin;
     position: relative;
     left: 50px;
 }
 
-.link {
-    color: white;
+.loginBox {
+    list-style: none;
+    display: table-cell;
+    column-count: 2;
+}
+
+.login {
+    height: 2vmin;
+    position: relative;
+    left: 10px;
+}
+
+.loginImg {
+    height: 5vmin;
+    position: relative;
+    left: 10px;
+}
+
+.loginName {
+    /* height: 2vmin;
+    position: relative; */
+    vertical-align: middle;
 }
 
 .box1 {

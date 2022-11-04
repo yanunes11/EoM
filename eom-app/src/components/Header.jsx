@@ -1,4 +1,5 @@
 import logo from '../images/images.jpeg';
+import login from '../images/login.png';
 import styles from './Header.module.css';
 
 function Header() {
@@ -17,7 +18,7 @@ function Header() {
                 </div>
 
                 {/* ROUTES */}
-                <ul  className={styles.box2}>
+                <ul className={styles.box2}>
                     <li className={styles.route}>EmployeeOfTheMonth</li>
                     <li className={styles.route}>Contents</li>
                     <li className={styles.route}>Votes</li>
@@ -25,8 +26,18 @@ function Header() {
                 </ul>
 
                 {/* LOG IN */}
-                <div  className={styles.box3}>
-                    LOG IN
+                <div className={styles.box3}>
+                    <ul className={styles.loginBox}>
+                        <li className={styles.login}>
+                            <a
+                                href="https://capmation.com"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                    <img src={login} className={styles.loginImg} alt="logo" />
+                            </a>
+                        </li>
+                        <li className={styles.loginName}>LOG IN</li>
+                    </ul>
                 </div>
             {/* <div className={styles.container}>
 
