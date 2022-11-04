@@ -10,7 +10,7 @@
 }
 
 .appLogo {
-    height: 10vmin;
+    height: 5vmin;
     position: relative;
     left: 50px;
 }
@@ -28,7 +28,7 @@
 }
 
 .loginImg {
-    height: 5vmin;
+    height: 2vmin;
     position: relative;
     left: 10px;
 }
