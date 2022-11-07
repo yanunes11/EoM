@@ -50,17 +50,6 @@
     vertical-align: middle;
 }
 
-.box2 {
-    width: 40%;
-    height: 50px;
-    background: #025696;
-    display: table-cell;
-    vertical-align: top;
-    font-size: small;
-    color: #dcf0f9;
-    column-count: 4;
-}
-
 .box3 {
     width: 10%;
     height: 10px;
@@ -71,12 +60,4 @@
     font-size: small;
     color: #dcf0f9;
     vertical-align: middle;
-}
-
-.route {
-    color: #dcf0f9;
-    font-size: small;
-    padding-top: 15px;
-    list-style: none;
-    text-align: center;
 }
