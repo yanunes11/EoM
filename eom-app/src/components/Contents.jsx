@@ -1,9 +1,9 @@
-import styles from './Votes.module.css';
+import styles from './Contents.module.css';
 
-function Votes() {
+function Contents() {
     return (
-        <></>
+        <>Contents</>
     );
 }
 
-export default Votes
+export default Contents
