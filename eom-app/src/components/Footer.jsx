@@ -1,5 +1,6 @@
-import styles from './Footer.module.css';
-import logo from '../images/images.jpeg';
+import styles from './css/Footer.module.css';
+import logo from '../images/logo.jpeg';
+import React from 'react';
 
 function Footer() {
     return (

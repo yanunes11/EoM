@@ -1,8 +1,9 @@
-import styles from './Votes.module.css';
+import styles from './css/Votes.module.css';
+import React from 'react';
 
 function Votes() {
     return (
-        <>Votes</>
+        <div className={styles.container}>Votes</div>
     );
 }
 

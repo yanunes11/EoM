@@ -1,8 +1,10 @@
-import styles from './CEMWinners.module.css';
+import styles from './css/CEMWinners.module.css';
+import React from 'react';
 
 function CEMWinners() {
     return (
-        <>CEMWinners</>
+        <div className={styles.container}>
+        </div>
     );
 }
 
