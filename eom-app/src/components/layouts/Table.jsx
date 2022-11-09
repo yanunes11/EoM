@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from '../css/Table.module.css';
 
 const Row = ({record}) => {
     const keys = Object.keys(record);
@@ -26,7 +27,7 @@ const TableHead = ({keys, head}) => {
 function Table({data, sampleDataFields}) {
     const keys = Object.keys(data[0]);
     return(
-        <table>
+        <table className={styles.table}>
             <TableHead keys={keys} head={sampleDataFields}/>
             <tbody>
                 {data.map(record => <Row record={record}/>)}

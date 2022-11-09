@@ -1,7 +1,8 @@
 import { NavLink } from 'react-router-dom';
-import styles from './css/NavBar.module.css';
+import styles from '../css/NavBar.module.css';
 import React from 'react';
-import logo from '../images/logo.jpeg';
+import logo from '../../images/logo.jpeg';
+
 
 // import CEMWinners from './CEMWinners';
 // import Contest from './Contest';

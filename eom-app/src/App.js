@@ -1,10 +1,10 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import NavBar from './components/NavBar';
-import EmployeeOfTheMonth from './components/EmployeeOfTheMonth';
-import Contest from './components/Contest';
-import Votes from './components/Votes';
-import CEMWinners from './components/CEMWinners';
+import NavBar from './components/pages/NavBar';
+import EmployeeOfTheMonth from './components/pages/EmployeeOfTheMonth';
+import Contest from './components/pages/Contest';
+import Votes from './components/pages/Votes';
+import CEMWinners from './components/pages/CEMWinners';
 import sampleData from './sampleData.json'; //YNASC samples to delete
 
 const sampleDataFields = {
