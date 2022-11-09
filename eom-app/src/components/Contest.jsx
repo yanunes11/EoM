@@ -3,9 +3,9 @@ import React from 'react';
 import Table from './layouts/Table';
 
 function Contest(props) {
-    const {data} = props;
+    const {data, sampleDataFields} = props;
     return (
-        <Table className={styles.container} data={data}/>
+        <Table className={styles.container} data={data} sampleDataFields={sampleDataFields}/>
     );
 }
 

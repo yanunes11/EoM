@@ -12,15 +12,22 @@ const Row = ({record}) => {
     );
 }
 
-function Table({data}) {
+const TableHead = ({keys, head}) => {
+    const tbHead = head || {};
+    return(
+        <thead>
+            {
+                keys.map(key => <th key={key}>{tbHead[key] || key}</th>)
+            }
+        </thead>
+    );
+}
+
+function Table({data, sampleDataFields}) {
     const keys = Object.keys(data[0]);
     return(
         <table>
-            <thead>
-                {
-                    keys.map(key => <th key={key}>{key}</th>)
-                }
-            </thead>
+            <TableHead keys={keys} head={sampleDataFields}/>
             <tbody>
                 {data.map(record => <Row record={record}/>)}
             </tbody>
