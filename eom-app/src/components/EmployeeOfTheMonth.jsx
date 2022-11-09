@@ -3,7 +3,7 @@ import React from 'react';
 
 function EmployeeOfTheMonth() {
     return (
-        <div>
+        <div className={styles.container}>
             EmployeeOfTheMonth
         </div>
     );

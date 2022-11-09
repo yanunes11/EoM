@@ -19,7 +19,7 @@ function NavBar() {
                 </a>
             </NavLink>
             <ul className={styles.list}>
-                <li><NavLink className={styles.item} to="/employeeofthemonth">Employee Of The Month</NavLink></li>
+                <li><NavLink className={styles.item} to="/employeeofthemonth">EmployeeOfTheMonth</NavLink></li>
                 <li><NavLink className={styles.item} to="/contents">Contents</NavLink></li>
                 <li><NavLink className={styles.item} to="/votes">Votes</NavLink></li>
                 <li><NavLink className={styles.item} to="/cemwinners">CEMWinners</NavLink></li>
