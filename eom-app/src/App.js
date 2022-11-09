@@ -8,9 +8,11 @@ import CEMWinners from './components/pages/CEMWinners';
 import sampleData from './sampleData.json'; //YNASC samples to delete
 
 const sampleDataFields = {
-  _id: "Id",
+  votingStartDate: "Voting Start Date",
+  votingEndDate: "Voting End Date",
   name: "Name",
-  votes: "Votes"
+  description: "Description",
+  state: "State"
 }
 
 function App() {

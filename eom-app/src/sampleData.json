@@ -1,17 +1,23 @@
 [
     {
-        "_id": 1,
-        "name": "Yan Nascimento",
-        "votes": 3
+        "votingStartDate": "2022-10-01",
+        "votingEndDate": "2022-10-31",
+        "name": "October EoM",
+        "description": "the second",
+        "state": "started"
     },
     {
-        "_id": 2,
-        "name": "Jean Paul",
-        "votes": 2
+        "votingStartDate": "2022-09-01",
+        "votingEndDate": "2022-09-30",
+        "name": "September EoM",
+        "description": "the top",
+        "state": "started"
     },
     {
-        "_id": 3,
-        "name": "Maria Clara",
-        "votes": 10
+        "votingStartDate": "2022-08-01",
+        "votingEndDate": "2022-08-31",
+        "name": "August EoM",
+        "description": "ok ok",
+        "state": "started"
     }
 ]
