@@ -6,7 +6,18 @@ const Row = ({record}) => {
     return (
         <tr key={record._id}>
             {
-                keys.map(key => <td key={key}>{record[key]}</td>)
+                keys.map(key => {
+                    if (key === "votingStartDate" || key === "votingEndDate") {
+                        const date = new Date(record[key]);
+                        return (
+                            <td key={key}>{date.getUTCFullYear()+"/"+date.getUTCMonth()+"/"+date.getUTCDay()}</td>
+                        )
+                    } else {
+                        return (
+                            <td key={key}>{record[key]}</td>
+                        )
+                    }
+                })
             }
             <td></td>
         </tr>
