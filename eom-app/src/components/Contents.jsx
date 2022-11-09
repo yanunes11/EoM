@@ -3,7 +3,7 @@ import React from 'react';
 
 function Contents() {
     return (
-        <div className={styles.container}>Contents</div>
+        <div>Contents</div>
     );
 }
 

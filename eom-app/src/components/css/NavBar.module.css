@@ -9,10 +9,13 @@
     column-count: 4;
 }
 
-.route {
-    color: #dcf0f9;
+.list {
     font-size: small;
     padding-top: 15px;
     list-style: none;
     text-align: center;
+}
+
+.item {
+    color: #dcf0f9;
 }

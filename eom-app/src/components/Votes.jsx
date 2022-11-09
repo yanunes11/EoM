@@ -3,7 +3,7 @@ import React from 'react';
 
 function Votes() {
     return (
-        <div className={styles.container}>Votes</div>
+        <div>Votes</div>
     );
 }
 

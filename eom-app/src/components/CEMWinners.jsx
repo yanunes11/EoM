@@ -3,7 +3,8 @@ import React from 'react';
 
 function CEMWinners() {
     return (
-        <div className={styles.container}>
+        <div>
+            CEMWinners
         </div>
     );
 }

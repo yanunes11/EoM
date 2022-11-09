@@ -1,39 +1,30 @@
-import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
-import CEMWinners from './CEMWinners';
-import Contents from './Contents';
-import EmployeeOfTheMonth from './EmployeeOfTheMonth';
+import { NavLink } from 'react-router-dom';
 import styles from './css/NavBar.module.css';
-import Votes from './Votes';
 import React from 'react';
+import logo from '../images/logo.jpeg';
 
+// import CEMWinners from './CEMWinners';
+// import Contents from './Contents';
+// import EmployeeOfTheMonth from './EmployeeOfTheMonth';
+// import Votes from './Votes';
 function NavBar() {
     return (
-        <>
-            <Router>
-                <ul className={styles.navbar}>
-                    <nav className={styles.navbar}>
-                        <NavLink to="/employeeofthemonth" >
-                            <li className={styles.route}>EmployeeOfTheMonth</li>
-                        </NavLink>
-                        <NavLink to="/contents">
-                            <li className={styles.route}>Contents</li>
-                        </NavLink>
-                        <NavLink to="/votes">
-                            <li className={styles.route}>Votes</li>
-                        </NavLink>
-                        <NavLink to="/cemwinners">
-                            <li className={styles.route}>CEMWinners</li>
-                        </NavLink>
-                    </nav>
-                </ul>
-                <Routes>
-                    <Route to="/employeeofthemonth" element={<EmployeeOfTheMonth/>}/>
-                    <Route to="/contents" element={<Contents/>}/>
-                    <Route to="/votes" element={<Votes/>}/>
-                    <Route to="/cemwinners" element={<CEMWinners/>}/>
-                </Routes>
-            </Router>
-        </>
+        <nav className={styles.navbar}>
+            <NavLink to="/">
+                <a
+                    href="https://capmation.com"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        <img src={logo} className={styles.appLogo} alt="logo" />
+                </a>
+            </NavLink>
+            <ul className={styles.list}>
+                <li><NavLink className={styles.item} to="/employeeofthemonth">Employee Of The Month</NavLink></li>
+                <li><NavLink className={styles.item} to="/contents">Contents</NavLink></li>
+                <li><NavLink className={styles.item} to="/votes">Votes</NavLink></li>
+                <li><NavLink className={styles.item} to="/cemwinners">CEMWinners</NavLink></li>
+            </ul>
+        </nav>
     );
 }
 
