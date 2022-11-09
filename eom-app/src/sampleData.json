@@ -1,0 +1,17 @@
+[
+    {
+        "_id": 1,
+        "name": "Yan Nascimento",
+        "votes": 3
+    },
+    {
+        "_id": 2,
+        "name": "Jean Paul",
+        "votes": 2
+    },
+    {
+        "_id": 3,
+        "name": "Maria Clara",
+        "votes": 10
+    }
+]

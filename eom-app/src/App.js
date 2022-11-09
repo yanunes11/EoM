@@ -5,6 +5,7 @@ import EmployeeOfTheMonth from './components/EmployeeOfTheMonth';
 import Contest from './components/Contest';
 import Votes from './components/Votes';
 import CEMWinners from './components/CEMWinners';
+import sampleData from './sampleData.json'; //YNASC samples to delete
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/">Home</Route>
           <Route path="/employeeofthemonth" element={<EmployeeOfTheMonth/>}/>
-          <Route path="/contest" element={<Contest/>}/>
+          <Route path="/contest" element={<Contest data={sampleData}/>}/>
           <Route path="/votes" element={<Votes/>}/>
           <Route path="/cemwinners" element={<CEMWinners/>}/>
         </Routes>

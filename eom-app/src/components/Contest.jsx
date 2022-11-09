@@ -1,9 +1,12 @@
 import styles from './css/Contest.module.css';
 import React from 'react';
 
-function Contest() {
+function Contest(props) {
+    const {data} = props;
     return (
-        <div>Contest</div>
+        <div className={styles.contest}>
+            {JSON.stringify(data)}
+        </div>
     );
 }
 
