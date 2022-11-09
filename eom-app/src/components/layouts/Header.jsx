@@ -1,7 +1,7 @@
 import logo from '../images/logo.jpeg';
 import login from '../images/login.png';
 import styles from './css/Header.module.css';
-import NavBar from './NavBar';
+import NavBar from '../NavBar';
 import React from 'react';
 
 function Header() {

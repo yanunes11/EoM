@@ -4,7 +4,7 @@ import React from 'react';
 import logo from '../images/logo.jpeg';
 
 // import CEMWinners from './CEMWinners';
-// import Contents from './Contents';
+// import Contest from './Contest';
 // import EmployeeOfTheMonth from './EmployeeOfTheMonth';
 // import Votes from './Votes';
 function NavBar() {
@@ -20,7 +20,7 @@ function NavBar() {
             </NavLink>
             <ul className={styles.list}>
                 <li><NavLink className={styles.item} to="/employeeofthemonth">EmployeeOfTheMonth</NavLink></li>
-                <li><NavLink className={styles.item} to="/contents">Contents</NavLink></li>
+                <li><NavLink className={styles.item} to="/contest">Contest</NavLink></li>
                 <li><NavLink className={styles.item} to="/votes">Votes</NavLink></li>
                 <li><NavLink className={styles.item} to="/cemwinners">CEMWinners</NavLink></li>
             </ul>
