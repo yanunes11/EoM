@@ -4,8 +4,16 @@ import Table from '../layouts/Table';
 
 function Contest(props) {
     const {data, sampleDataFields} = props;
+
+    function NewContest() {
+        alert(`You clicked me!`);
+    }
     return (
-        <Table className={styles.container} data={data} sampleDataFields={sampleDataFields}/>
+        <div>
+            <span className={styles.title}>Content List</span>
+            <button className={styles.btn} onClick={NewContest}>Add Contest +</button>
+            <Table className={styles.table} data={data} sampleDataFields={sampleDataFields}/>
+        </div>
     );
 }
 
