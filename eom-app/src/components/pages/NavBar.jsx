@@ -11,14 +11,12 @@ import logo from '../../images/logo.jpeg';
 function NavBar() {
     return (
         <nav className={styles.navbar}>
-            <NavLink to="/">
-                <a
-                    href="https://capmation.com"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                        <img src={logo} className={styles.appLogo} alt="logo" />
-                </a>
-            </NavLink>
+            <a
+                href="https://capmation.com"
+                target="_blank"
+                rel="noopener noreferrer">
+                    <img src={logo} className={styles.appLogo} alt="logo" />
+            </a>
             <ul className={styles.list}>
                 <li><NavLink className={styles.item} to="/employeeofthemonth">EmployeeOfTheMonth</NavLink></li>
                 <li><NavLink className={styles.item} to="/contest">Contest</NavLink></li>
