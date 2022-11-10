@@ -10,9 +10,13 @@ function Contest(props) {
     }
     return (
         <div>
-            <span className={styles.title}>Content List</span>
-            <button className={styles.btn} onClick={NewContest}>Add Contest +</button>
-            <Table className={styles.table} data={data} sampleDataFields={sampleDataFields}/>
+            <div>
+                <span className={styles.title}>Content List</span>
+                <button className={styles.btn} onClick={NewContest}>Add Contest <span className={styles.plus}>+</span></button>
+            </div>
+            <div>
+                <Table className={styles.table} data={data} sampleDataFields={sampleDataFields}/>
+            </div>
         </div>
     );
 }
