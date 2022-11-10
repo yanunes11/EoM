@@ -28,9 +28,11 @@ const TableHead = ({keys, head}) => {
     const tbHead = head || {};
     return(
         <thead>
-            {
-                keys.map(key => <th key={key}>{tbHead[key] || key}</th>)
-            }
+            <tr>
+                {
+                    keys.map(key => <th key={key}>{tbHead[key] || key}</th>)
+                }
+            </tr>
         </thead>
     );
 }
