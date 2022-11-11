@@ -11,7 +11,7 @@
         "votingEndDate": "2022-09-30",
         "name": "September EoM",
         "description": "the top",
-        "state": "started"
+        "state": "paused"
     },
     {
         "votingStartDate": "2022-08-01",
@@ -19,5 +19,12 @@
         "name": "August EoM",
         "description": "ok ok",
         "state": "started"
+    },
+    {
+        "votingStartDate": "2022-07-01",
+        "votingEndDate": "2022-07-31",
+        "name": "July EoM",
+        "description": "at last",
+        "state": "stopped"
     }
 ]
