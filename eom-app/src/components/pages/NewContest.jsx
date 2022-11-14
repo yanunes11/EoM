@@ -1,7 +1,9 @@
+import React from "react";
+// import Card from 'react-bootstrap/Card'; //YNASC
+
 function NewContest() {
     return(
-        <>
-            New Contest
+        <>YNASC
         </>
     )
 }

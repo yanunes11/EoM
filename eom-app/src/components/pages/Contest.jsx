@@ -2,14 +2,13 @@ import styles from '../css/Contest.module.css';
 import React from 'react';
 import Table from '../layouts/Table';
 import { useState } from 'react';
-import NewContest from './NewContest';
+import { NavLink } from 'react-router-dom';
 
 function Contest(props) {
     const {data, sampleDataFields} = props;
     const [showNewContest, setShowNewContest] = useState(true);
 
     function NewContestBtn() {
-        console.log(`YNASC - New Contest clicked`);
         setShowNewContest(false);
     }
     return (
@@ -18,7 +17,9 @@ function Contest(props) {
                 <>
                     <div>
                         <span className={styles.title}>Content List</span>
-                        <button className={styles.btn} onClick={NewContestBtn}>Add Contest <span className={styles.plus}>+</span></button>
+                        <NavLink to="/newcontest">
+                            <button className={styles.btn} onClick={NewContestBtn}>Add Contest <span className={styles.plus}>+</span></button>
+                        </NavLink>
                     </div>
                     <div>
                         <Table className={styles.table} data={data} sampleDataFields={sampleDataFields}/>
@@ -27,7 +28,7 @@ function Contest(props) {
             }
             {!showNewContest && 
                 <>
-                    <NewContest/>
+                    <NavLink to="/newcontest"></NavLink>
                 </>
             }
         </div>

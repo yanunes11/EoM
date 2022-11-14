@@ -6,6 +6,7 @@ import Contest from './components/pages/Contest';
 import Votes from './components/pages/Votes';
 import CEMWinners from './components/pages/CEMWinners';
 import sampleData from './sampleData.json'; //YNASC samples to delete
+import NewContest from './components/pages/NewContest';
 
 const sampleDataFields = {
   votingStartDate: "Voting Start Date",
@@ -26,6 +27,7 @@ function App() {
           <Route path="/contest" element={<Contest data={sampleData} sampleDataFields={sampleDataFields}/>}/>
           <Route path="/votes" element={<Votes/>}/>
           <Route path="/cemwinners" element={<CEMWinners/>}/>
+          <Route path="/newcontest" element={<NewContest/>}/>
         </Routes>
       </Router>
     </div>
