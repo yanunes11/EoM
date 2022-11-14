@@ -18,4 +18,36 @@
     border: .5px solid;
     border-color: rgb(150, 150, 154);
     font-style: normal;
+    text-align:left;
+}
+
+.cancel {
+    color: #025696;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #025696;
+}
+
+.save {
+    color: #dcf0f9;
+    font-weight: bold;
+    background-color: #025696;
+    padding: 10px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #025696;
+}
+
+.delete {
+    color: #dcf0f9;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: red;
 }
