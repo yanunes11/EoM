@@ -1,0 +1,21 @@
+.title {
+    text-align: left;
+    position: absolute;
+    font-size: 30px;
+    left: 400px;
+    top: 110px;
+}
+
+.container {
+    position: absolute;
+    left: 400px;
+    top: 180px;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: .5px solid;
+    border-color: rgb(150, 150, 154);
+    font-style: normal;
+}

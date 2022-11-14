@@ -16,7 +16,7 @@ function Contest(props) {
             {showNewContest && 
                 <>
                     <div>
-                        <span className={styles.title}>Content List</span>
+                        <span className={styles.title}>Contest List</span>
                         <NavLink to="/newcontest">
                             <button className={styles.btn} onClick={NewContestBtn}>Add Contest <span className={styles.plus}>+</span></button>
                         </NavLink>
