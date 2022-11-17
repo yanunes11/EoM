@@ -1,7 +1,13 @@
 import React from "react";
 import styles from '../css/NewContest.module.css';
+import Select from 'react-select';
 
 function NewContest() {
+    const options = [
+        { value: 'chocolate', label: 'Chocolate' },
+        { value: 'strawberry', label: 'Strawberry' },
+        { value: 'vanilla', label: 'Vanilla' }
+    ];
     return(
         <>
             <p className={styles.title}>New Contest</p>
@@ -16,7 +22,7 @@ function NewContest() {
                 <p>Description: </p>
                 <input type="text"></input>
                 <p>State: </p>
-                <input type="date"></input>
+                <Select options={options} />
 
                 {/* BUTTONS */}
                 <div>
