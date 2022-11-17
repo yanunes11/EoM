@@ -17,9 +17,12 @@ function Contest(props) {
                 <>
                     <div>
                         <span className={styles.title}>Contest List</span>
-                        <NavLink to="/newcontest">
-                            <button className={styles.btn} onClick={NewContestBtn}>Add Contest <span className={styles.plus}>+</span></button>
-                        </NavLink>
+                        <div className={styles.search_add}>
+                            <input type="search" className={styles.search}></input>
+                            <NavLink to="/newcontest">
+                                <button className={styles.btn} onClick={NewContestBtn}>Add Contest <span className={styles.plus}>+</span></button>
+                            </NavLink>
+                        </div>
                     </div>
                     <div>
                         <Table className={styles.table} data={data} sampleDataFields={sampleDataFields}/>
