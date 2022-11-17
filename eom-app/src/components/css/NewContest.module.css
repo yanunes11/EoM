@@ -19,6 +19,11 @@
     border-color: rgb(150, 150, 154);
     font-style: normal;
     text-align:left;
+    color: rgb(118, 117, 117);
+}
+
+input {
+    color: rgb(118, 117, 117);
 }
 
 .cancel {

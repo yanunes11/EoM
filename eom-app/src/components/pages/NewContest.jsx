@@ -5,7 +5,7 @@ function NewContest() {
     return(
         <>
             <p className={styles.title}>New Contest</p>
-            <div className={styles.container}>
+            <form className={styles.container}>
                 {/* FIELDS */}
                 <p>Voting Starting Date: </p>
                 <input type="date"></input>
@@ -24,7 +24,7 @@ function NewContest() {
                     <button className={styles.save}>Save</button>
                     <button className={styles.delete}>Delete</button>
                 </div>
-            </div>
+            </form>
         </>
     )
 }
